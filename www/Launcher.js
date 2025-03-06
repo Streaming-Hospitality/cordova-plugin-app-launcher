@@ -3,6 +3,7 @@ function Launcher() {}
 
 // Flags
 Launcher.prototype.FLAG_ACTIVITY_NEW_TASK = 0x10000000;
+Launcher.prototype.FLAG_ACTIVITY_CLEAR_TASK = 0x00008000;
 
 Launcher.prototype.canLaunch = function (options, successCallback, errorCallback) {
 	options = options || {};
